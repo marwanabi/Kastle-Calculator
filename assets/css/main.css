@@ -119,9 +119,9 @@ img {
 }
 
 .content-wrapper .graph-container .graph-desc a {
-  color: #1d1d1d;
+  color: #D72329;
   text-decoration: none;
-  border-bottom: 1px solid #1d1d1d;
+  border-bottom: 1px solid #D72329;
 }
 
 .content-wrapper .introduction p {
@@ -260,6 +260,9 @@ img {
   color: #46494A;
 }
 
+.calculator_container p span{
+  color: #D72329;
+}
 #footer {
   position: relative;
   background: #f4f4f4;
@@ -292,6 +295,7 @@ img {
 #footer .footer-text a {
   color: #D72329;
   text-decoration: none;
+  border-bottom: 1px solid #D72329;
 }
 
 #tab-menu {
