@@ -8,7 +8,7 @@ function updateScreen(displayValue) {
 function calc() {
   var total = output.text() / 8;
   console.log(total);
-  $('#result-box').text((total).toFixed(0));
+  $('.result-box').text((total).toFixed(0));
 };
 
 

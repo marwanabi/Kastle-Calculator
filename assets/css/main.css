@@ -252,8 +252,11 @@ img {
   z-index: -1;
 }
 
-/* old */
-
+.calculator_container p {
+  font-size: 18px;
+  margin-top: 40px;
+  line-height: 24px;
+}
 
 #footer {
   position: relative;
@@ -293,7 +296,6 @@ img {
   display: none;
 }
 
-
 @media (max-width:1039px) {
   #tab-menu {
     display: block;
@@ -301,76 +303,74 @@ img {
   .main-menu {
     display: none;
   }
-.introduction {
+  .introduction {
     padding: 0 25px 0;
   }
-  .introduction h1{
-      padding:0 0 60px;
-    }
+  .introduction h1 {
+    padding: 0 0 60px;
+  }
   .container {
     padding: 0 25px;
   }
-
   .footer-text {
     position: initial;
     width: 80% !important;
     margin: 0 auto !important;
     padding: 60px 0;
   }
-  .calculator_container{
+  .calculator_container {
     margin-left: 20px;
   }
 }
 
 @media (max-width:977px) {
-  #main-menu,.calculator_img_container {
+  #main-menu, .calculator_img_container {
     display: none;
   }
-  .container{
+  .container {
     padding: 0;
   }
-  .introduction h1{
+  .introduction h1 {
     text-align: center;
     max-width: 750px;
     margin: 0 auto;
   }
-  .content-wrapper,.calculator_container{
+  .content-wrapper, .calculator_container {
     display: block;
   }
-  .calculator_container{
+  .calculator_container {
     text-align: center;
     margin: 0;
-        background: #f4f4f4;
-        padding: 50px 0;
+    background: #f4f4f4;
+    padding: 50px 25px;
   }
-  .calculator_container .calculator{
+  .calculator_container .calculator {
     margin: 0 auto;
     width: 314px;
   }
-  .calculator_container .calculator .button_container .button{
+  .calculator_container .calculator .button_container .button {
     width: 66px;
     height: 66px;
     line-height: 64px;
     margin: 10px 8px;
   }
-  .calculator_container .calculator .display{
+  .calculator_container .calculator .display {
     width: 237px;
   }
-  .content-wrapper .desc{
+  .content-wrapper .desc {
     max-width: 750px;
     margin: 0 auto;
     padding: 0 25px;
   }
-.content-wrapper .graph-container{
-
-  margin: 0 auto 30px;
-}
-.content-wrapper .graph-container .graph-desc{
-      max-width: 200px;
-}
-.content-wrapper .desc p.disclaimer{
-  padding-bottom: 50px;
-}
+  .content-wrapper .graph-container {
+    margin: 0 auto 30px;
+  }
+  .content-wrapper .graph-container .graph-desc {
+    max-width: 200px;
+  }
+  .content-wrapper .desc p.disclaimer {
+    padding-bottom: 50px;
+  }
   #footer {
     padding: 50px 40px;
     background: #fff;
@@ -382,7 +382,7 @@ img {
     margin: 0 auto !important;
     padding: 0;
   }
-  #footer:before{
+  #footer:before {
     top: auto;
     bottom: 0
   }
