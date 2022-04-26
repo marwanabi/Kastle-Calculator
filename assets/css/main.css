@@ -169,12 +169,24 @@ img {
   background-color: #fff;
   border-radius: 12px;
   width: 212px;
-  height: 118px;
+  height: 130px;
   margin: 30px 30px 15px;
   display: inline-block;
   box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.15);
   text-align: right;
   padding: 15px 15px 22px 0;
+}
+
+.calculator_container .calculator .display p {
+  color: #1d1d1d;
+  font-size: 14px;
+  font-family: 'AvenirNext-Bold', sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.calculator_container .calculator .display p:nth-child(2){
+  margin-top: 5px;
 }
 
 .calculator_container .calculator .display span {
